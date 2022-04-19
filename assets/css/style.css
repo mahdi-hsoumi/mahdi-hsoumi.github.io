@@ -5299,12 +5299,14 @@ footer .widget > form input:-moz-placeholder {
 }
 .post-img3 > a {
   height: 100%;
+  display: flex;
+  justify-content: center;
+  padding: 10px 0;
 }
 .post-img3 > a img {
   position: absolute;
-  min-width: 100%;
-  max-width: 340px;
-  width: auto;
+  min-width: 90%;
+  width: 90%;
   left: 50%;
   -webkit-transform: translate(-50%, -50%);
   -ms-transform: translate(-50%, -50%);
@@ -7367,7 +7369,7 @@ hr {
 }
 .divider3 {
   height: 2px;
-  background-color: var(--color2);
+  background-color: var(--color34);
   margin: 35px 0 40px;
   position: relative;
 }
@@ -7383,7 +7385,7 @@ hr {
   left: 50%;
   margin: -12.5px 0 0 -30.5px;
   top: 50%;
-  color: var(--color2);
+  color: var(--color34);
 }
 .divider4 {
   height: 2px;
